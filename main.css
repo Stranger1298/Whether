@@ -18,30 +18,31 @@ body {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
 }
 
-header {
+.section {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 50px 15px 15px;
+  margin-top: 8rem;
 }
 
-header input {
+.section input {
   width: 100%;
   max-width: 280px;
   padding: 10px 15px;
   border: none;
   outline: none;
-  background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 0px 16px 0px 16px;
+  background-color: rgba(245, 245, 245, 0.555);
+  border-radius: 12px;
   border-bottom: 3px solid gray;
 
-  color: #313131;
+  color: #000000;
   font-size: 20px;
   font-weight: 300;
   transition: 0.2s ease-out;
 }
 
-header input:focus {
+.section input:focus {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
